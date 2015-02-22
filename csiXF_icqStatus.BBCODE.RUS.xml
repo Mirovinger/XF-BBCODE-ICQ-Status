@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright © 2015 CYBERSPACE Industries. All rights reserved.
+  Contacts: http://cyberspace.industries/
+  License: LICENSE.ENG.txt
+-->
+<bb_codes>
+  <bb_code bb_code_id="icq" bb_code_mode="replace" has_option="no" callback_class="" callback_method="" option_regex="" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_signature="1" editor_icon_url="" sprite_mode="0" active="1" title="ICQ Status" description="Отображение ICQ статуса пользователя online/offline.">
+    <replace_html><![CDATA[<img src="http://status.icq.com/online.gif?icq={text}&amp;img=5" alt="ICQ" />]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+    <example><![CDATA[[icq]ID[/icq]]]></example>
+  </bb_code>
+</bb_codes>
